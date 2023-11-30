@@ -82,6 +82,7 @@ class ToDoList {
                 .thenComparing(Comparator.comparing(Task::isReminderSet, Comparator.reverseOrder())));
     }
 }
+
 public class Main extends JFrame {
 
     private ToDoList toDoList = new ToDoList();
